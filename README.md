@@ -1,48 +1,69 @@
-\# Tweet Emotion Recognition
+# Tweet Emotion Recognition
+
+A deep learning–based NLP project that identifies emotions expressed in tweets using a Bidirectional LSTM model.
+
+![Model Architecture]<img width="2816" height="1377" alt="image" src="https://github.com/user-attachments/assets/6f7d0b24-b135-4c27-b1e2-f48304a5641c" />
 
 
+---
 
-This project classifies emotions in tweets using deep learning.
+## Overview
 
+Social media text is noisy and unstructured, making emotion detection challenging.  
+This project converts raw tweets into structured emotional categories using a neural network–based pipeline.
 
+---
 
-\## Emotions
+## Emotions Classified
 
-\- Sadness
+- Sadness  
+- Love  
+- Joy  
+- Surprise  
+- Anger  
+- Fear  
 
-\- Love
+---
 
-\- Joy
+## Methodology
 
-\- Surprise
+1. **Text Preprocessing**
+   - Remove URLs, user mentions, and special characters  
+   - Clean and normalize text  
 
-\- Anger
+2. **Tokenization & Padding**
+   - Convert words into numerical sequences  
+   - Pad sequences to a fixed length  
 
-\- Fear
+3. **Deep Learning Model**
+   - Embedding layer for word representation  
+   - Bidirectional LSTM for context understanding  
+   - Dense layer for feature extraction  
+   - Softmax activation for multi-class emotion prediction  
 
+---
 
+## Tech Stack
 
-\## Model
+- Python  
+- TensorFlow / Keras  
+- NumPy  
+- Matplotlib  
+- Jupyter Notebook  
 
-\- Tokenizer + Padding
+---
 
-\- Embedding Layer
+## Project Structure
 
-\- Bidirectional LSTM
-
-\- Softmax Output
-
-
-
-\## Tech Stack
-
-\- Python
-
-\- TensorFlow / Keras
-
-\- NumPy
-
-\- Matplotlib
-
-
-
+```text
+tweet-emotion-recognition/
+│
+├── notebooks/
+│   └── Copy_of_Tweet_Emotion_Recognition_Learner7.ipynb
+├── assets/
+│   └── architecture.png
+├── data/
+├── src/
+├── requirements.txt
+├── README.md
+└── .gitignore
