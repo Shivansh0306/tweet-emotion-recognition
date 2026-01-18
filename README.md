@@ -2,7 +2,7 @@
 
 A deep learning–based NLP project that identifies emotions expressed in tweets using a Bidirectional LSTM model.
 
-![Model Architecture]<img width="2816" height="1377" alt="image" src="https://github.com/user-attachments/assets/6f7d0b24-b135-4c27-b1e2-f48304a5641c" />
+Model Architecture]<img width="2816" height="1377" alt="image" src="https://github.com/user-attachments/assets/6f7d0b24-b135-4c27-b1e2-f48304a5641c" />
 
 
 ---
@@ -52,18 +52,3 @@ This project converts raw tweets into structured emotional categories using a ne
 - Jupyter Notebook  
 
 ---
-
-## Project Structure
-
-```text
-tweet-emotion-recognition/
-│
-├── notebooks/
-│   └── Copy_of_Tweet_Emotion_Recognition_Learner7.ipynb
-├── assets/
-│   └── architecture.png
-├── data/
-├── src/
-├── requirements.txt
-├── README.md
-└── .gitignore
